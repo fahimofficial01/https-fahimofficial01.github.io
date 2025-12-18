@@ -1,259 +1,342 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fahim Ahammad Mazumder</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      text-align: center;
-      padding: 20px;
-      background: #f5f5f5;
-      color: #333;
-    }
-    img {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-top: 20px;
-    }
-    a {
-      display: inline-block;
-      margin: 5px 10px;
-      text-decoration: none;
-      color: #0077cc;
-      font-weight: bold;
-    }
-    section {
-      margin-top: 40px;
-      background-color: #ffffff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      text-align: left;
-    }
-    ul {
-      text-align: left;
-      padding-left: 20px;
-    }
-  </style>
-</head>
-<body>
-  <h1>Fahim Ahammad Mazumder</h1>
-  <div style="font-family: sans-serif; font-size: 18px;">
-    <a href="https://sites.google.com/view/fbindeals" target="_blank" style="color: #0066cc; font-weight: bold; text-decoration: none;">
-    Website :👉projects experience📱 
-  <a href="https://facebook.com/infofbinfaheem" target="_blank" style="color: #0066cc; font-weight: bold; text-decoration: none;">
-    Page-👉 FBin Faheem ✔️ (BD) 
-  </a>
-  </div>
-  <img src="FB_IMG_17576597773337071-removebg-preview.png" alt="Fahim's Photo"><img src="IMG-20251130-WA0008.jpg" alt="Fahim's Photo">
- <p>
-    ☪️ I'm a Muslim 😊
-    Blood : AB+🩸 
-    🎓 SSC (It), Studied CSE-Chattogram Polytechnic Institute<br>
-    💼 Digital Product Marketer, Freelancer<br>
-    🎬 Basic Video Editor, 🐍 Basic Python Programmer<br> Web Designer 😎
-    🌿 প্রকৃতি আমার ভীষণ প্রিয় বন্ধু , 🎵 As a Artist <br>📍 Chattogram, Bangladesh
-
-   <section id="cyber-articles">
-  <h2>🛡️ Cybersecurity Articles</h2>
-  <p>As a passionate cybersecurity learner and content writer, I regularly share practical, beginner-friendly articles based on my research, labs, and personal learning experience.</p>
-
-  <div class="article-card">
-    <h3>🔍 Getting Started with Nmap: Scan Like a Pro</h3>
-    <p>Learn how to perform basic network scans using Nmap and understand the results step by step.</p>
-    <a href="#">Read Article</a>
-  </div>
-
-  <div class="article-card">
-    <h3>💻 Top 5 Linux Commands Every Beginner Hacker Should Know</h3>
-    <p>Master essential Linux commands used in cybersecurity labs and ethical hacking.</p>
-    <a href="#">Read Article</a>
-  </div>
-
-  <div class="article-card">
-    <h3>🎯 My First TryHackMe Lab: What I Learned</h3>
-    <p>Sharing my experience with the “Complete Beginner” path on TryHackMe and tips for newcomers.</p>
-    <a href="#">Read Article</a>
-  </div>
-   </section>
-  <!DOCTYPE html>
-<html lang="en">
-<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fahim Ahammad Mazumder | Content Specialist & Cyber Security Writer</title>
+    <title>Fahim Ahammad Mazumder | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
     <style>
         :root {
-            --primary-color: #2c3e50;
-            --accent-color: #3498db;
-            --bg-color: #f8f9fa;
-            --text-color: #333;
+            --primary: #1a2a6c;
+            --secondary: #b21f1f;
+            --accent: #fdbb2d;
+            --text-dark: #333;
+            --text-light: #666;
+            --bg-light: #f4f7f6;
+            --white: #ffffff;
         }
-        body {
-            font-family: 'Segoe UI', Arial, sans-serif;
-            line-height: 1.6;
+
+        * {
             margin: 0;
             padding: 0;
-            background-color: var(--bg-color);
-            color: var(--text-color);
+            box-sizing: border-box;
         }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        /* বাংলা ফন্টের জন্য আলাদা ক্লাস */
+        .bn-text {
+            font-family: 'Hind Siliguri', sans-serif;
+        }
+
+        /* --- Header / Hero Section --- */
         header {
-            background: var(--primary-color);
-            color: #ffffff;
-            padding: 3rem 1rem;
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f);
+            color: var(--white);
             text-align: center;
+            padding: 80px 20px 100px;
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
         }
+
+        .profile-img-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid rgba(255, 255, 255, 0.5);
+            object-fit: cover;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+            transition: transform 0.3s;
+        }
+
+        .profile-img:hover {
+            transform: scale(1.05);
+        }
+
         header h1 {
-            margin: 0;
             font-size: 2.5rem;
-            letter-spacing: 1px;
+            margin-top: 15px;
+            font-weight: 700;
         }
-        header p {
-            font-weight: 300;
+
+        header p.tagline {
             font-size: 1.1rem;
             opacity: 0.9;
+            margin-bottom: 20px;
         }
+
+        .social-icons a {
+            color: var(--white);
+            font-size: 1.2rem;
+            margin: 0 10px;
+            text-decoration: none;
+            border: 1px solid rgba(255,255,255,0.3);
+            padding: 8px 15px;
+            border-radius: 20px;
+            transition: background 0.3s;
+        }
+
+        .social-icons a:hover {
+            background: var(--white);
+            color: var(--primary);
+        }
+
+        /* --- Container --- */
         .container {
-            max-width: 900px;
-            margin: -40px auto 40px;
-            background: #fff;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            max-width: 1000px;
+            margin: -60px auto 40px; /* Overlaps header */
+            padding: 0 20px;
         }
-        h2 {
-            border-left: 5px solid var(--accent-color);
-            padding-left: 15px;
-            color: var(--primary-color);
-            margin-top: 30px;
+
+        /* --- Card Styles --- */
+        .card {
+            background: var(--white);
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
         }
-        .skills-container {
+
+        h2.section-title {
+            color: var(--primary);
+            border-bottom: 2px solid var(--accent);
+            display: inline-block;
+            margin-bottom: 20px;
+            padding-bottom: 5px;
+        }
+
+        /* --- About Section --- */
+        .personal-details {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+            margin-bottom: 20px;
+            font-size: 0.95rem;
+        }
+        
+        .detail-item {
+            background: #eef2f3;
+            padding: 10px 15px;
+            border-radius: 8px;
+            flex: 1 1 45%;
+        }
+
+        /* --- Skills --- */
+        .skills-wrapper {
             display: flex;
             flex-wrap: wrap;
             gap: 10px;
-            margin-top: 15px;
         }
-        .skill-badge {
-            background: #e1f5fe;
-            color: #0277bd;
-            padding: 8px 18px;
-            border-radius: 25px;
-            font-size: 0.9rem;
+
+        .skill {
+            background: linear-gradient(45deg, #1a2a6c, #2a4858);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 50px;
+            font-size: 0.85rem;
             font-weight: 600;
-            border: 1px solid #b3e5fc;
         }
-        .experience-box {
-            background: #fdfdfd;
+
+        /* --- Articles Grid --- */
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .article-box {
+            background: #fff;
             border: 1px solid #eee;
+            border-radius: 10px;
             padding: 20px;
-            border-radius: 8px;
-            margin-top: 15px;
+            transition: transform 0.3s, box-shadow 0.3s;
         }
+
+        .article-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-color: var(--accent);
+        }
+
+        .article-box h3 {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+
+        .read-btn {
+            display: inline-block;
+            margin-top: 15px;
+            color: var(--secondary);
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        /* --- Poetry / Bengali Section --- */
+        .poetry-section {
+            background: #fffbf2; /* Cream color */
+            border-left: 5px solid #ffa502;
+        }
+
+        .poetry-text {
+            font-style: italic;
+            color: #555;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        /* --- Footer --- */
         footer {
             text-align: center;
-            padding: 2rem;
-            color: #888;
+            padding: 40px 20px;
+            background: var(--primary);
+            color: rgba(255,255,255,0.7);
             font-size: 0.9rem;
+            margin-top: 50px;
+        }
+
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        /* --- Responsive Tweaks --- */
+        @media (max-width: 768px) {
+            header h1 { font-size: 2rem; }
+            .container { margin-top: -40px; }
+            .detail-item { flex: 1 1 100%; }
         }
     </style>
 </head>
 <body>
 
-    <h1>Fahim Ahammad Mazumder</h1>
-    <p>Professional Article Writer • Cyber Security Analyst • Digital Content Specialist</p>
-
-    <section>
-        <h2>Professional Profile</h2>
-        <p>
-            I am a dedicated <strong>Professional Article Writer</strong> with a diverse background in digital entrepreneurship. With over 7 months of hands-on experience in <strong>Dropshipping</strong> and e-commerce management, I have transitioned my focus toward <strong>Cyber Security</strong>. My current mission is to simplify complex security concepts into engaging, informative articles that help individuals and businesses stay safe in the digital age.
-        </p>
-    </section>
-
-    <section>
-        <h2>Core Expertise</h2>
-        <div class="skills-container">
-            <span class="skill-badge">Article Writing</span>
-            <span class="skill-badge">Cyber Security Research</span>
-            <span class="skill-badge">E-commerce & Dropshipping</span>
-            <span class="skill-badge">Freelance Marketplace Setup</span>
-            <span class="skill-badge">Google Sites Development</span>
-            <span class="skill-badge">Social Media Content</span>
-            <span class="skill-badge">Basic Web Design (HTML/CSS)</span>
+    <header>
+        <div class="profile-img-container">
+            <img src="IMG-20251130-WA0008.jpg" alt="Fahim Photo" class="profile-img">
         </div>
-    </section>
-
-    <section>
-        <h2>What I Offer</h2>
-        <div class="experience-box">
-            <p><strong>• Cyber Security Content:</strong> Creating unique, high-quality articles on digital threats, encryption, and data privacy.</p>
-            <p><strong>• E-commerce Strategy:</strong> Leveraging my 7 months of Dropshipping experience to provide content or consulting for online stores.</p>
-            <p><strong>• Web Presence:</strong> Designing functional websites using Google Sites and basic coding for personal or business branding.</p>
-            <p><strong>• Platform Management:</strong> Expert in setting up professional Fiverr and Upwork profiles, including gig optimization.</p>
+        <h1>Fahim Ahammad Mazumder</h1>
+        <p class="tagline">Digital Product Marketer | Cyber Security Analyst | Content Writer</p>
+        
+        <div class="social-icons">
+            <a href="https://facebook.com/fbinfaheem" target="_blank">FB</a>
+            <a href="https://instagram.com/fbinfaheem" target="_blank">IG</a>
+            <a href="https://tiktok.com/@fbinfaheem" target="_blank">TikTok</a>
+            <a href="mailto:info@fahimofficial.com">Email</a>
         </div>
-    </section>
+    </header>
 
-    <section>
-        <h2>Why Collaborate With Me?</h2>
-        <p>
-            I combine technical knowledge with creative storytelling. Whether I am writing about the latest cyber vulnerability or designing a landing page, my approach is always data-driven and tailored to the target audience. My goal is to deliver 100% unique and plagiarism-free content that adds real value.
-        </p>
-    </section>
-</div>
+    <div class="container">
 
-<footer>
-    &copy; 2024 Fahim Ahammad Mazumder | All Rights Reserved
-</footer>
+        <section class="card">
+            <h2 class="section-title">👤 About Me</h2>
+            <div class="personal-details bn-text">
+                <div class="detail-item">☪️ ধর্ম: ইসলাম (Muslim)</div>
+                <div class="detail-item">🩸 ব্লাড গ্রুপ: AB+</div>
+                <div class="detail-item">🎓 শিক্ষা: CSE, চট্টগ্রাম পলিটেকনিক ইনস্টিটিউট</div>
+                <div class="detail-item">📍 অবস্থান: চট্টগ্রাম, বাংলাদেশ</div>
+            </div>
+            <p style="margin-top: 15px;">
+                I am a passionate <strong>Cyber Security Enthusiast</strong> and <strong>Digital Marketer</strong>. With over 7 months of experience in dropshipping, I now focus on simplifying complex tech concepts through my writing.
+            </p>
+            <div style="margin-top: 20px; text-align: center;">
+                <a href="https://sites.google.com/view/fbindeals" target="_blank" style="color: var(--primary); font-weight: bold; text-decoration: none;">👉 View Project Experience</a>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2 class="section-title">🚀 Skills & Expertise</h2>
+            <div class="skills-wrapper">
+                <span class="skill">Cyber Security Research</span>
+                <span class="skill">Python (Basic)</span>
+                <span class="skill">Network Scanning (Nmap)</span>
+                <span class="skill">Linux Commands</span>
+                <span class="skill">Content Writing</span>
+                <span class="skill">Video Editing</span>
+                <span class="skill">Dropshipping</span>
+                <span class="skill">Web Design</span>
+            </div>
+        </section>
+
+        <section class="card" id="articles">
+            <h2 class="section-title">🛡️ Cyber Security Articles</h2>
+            <p style="margin-bottom: 20px; color: var(--text-light);">My latest research and lab experiences:</p>
+            
+            <div class="articles-grid">
+                <div class="article-box">
+                    <h3>🔍 Nmap Scanning Guide</h3>
+                    <p>Learn how to perform basic network scans using Nmap and understand the results step by step.</p>
+                    <a href="#" class="read-btn">Read More →</a>
+                </div>
+
+                <div class="article-box">
+                    <h3>💻 Linux for Hackers</h3>
+                    <p>Top 5 essential Linux commands every beginner hacker needs to master for labs.</p>
+                    <a href="#" class="read-btn">Read More →</a>
+                </div>
+
+                <div class="article-box">
+                    <h3>🎯 TryHackMe Journey</h3>
+                    <p>My experience with the "Complete Beginner" path and tips for newcomers.</p>
+                    <a href="#" class="read-btn">Read More →</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="card poetry-section bn-text">
+            <h2 class="section-title">🌿 চিন্তাভাবনা ও প্রকৃতি</h2>
+            
+            <div class="poetry-content">
+                <p class="poetry-text">
+                    "প্রকৃতি আমাদের সেই নিরব বন্ধু, যে কিছু না বলেও সব কিছু বলে দেয়।
+                    গোধূলির আলো, পাতার ফিসফিসে কথা, আর হাওয়ার স্পর্শে যেন পুরনো প্রেমের গল্প ফিরে আসে…
+                    এই নিসর্গ শুধু চোখে নয়, হৃদয়ে অনুভব করতে হয়।" 🍂
+                </p>
+                <hr style="border: 0; border-top: 1px solid #ddd; margin: 20px 0;">
+                <p class="poetry-text">
+                    "পৃথিবীকে আমার জিজ্ঞেস করতে ইচ্ছে করে!<br>
+                    কেনো মানুষকে নিজেকে জিজ্ঞেস করতে বলে না, যে আমার মতো কোনো এক হতভাগা যেনো আটকে গেছে, সমুদ্রের কোনো এক দ্বীপে...<br>
+                    মানুষ ফিরেও দেখে না...<br>
+                    স্বার্থপরতা যেনো সান্তনা দিতেও রাজি নয়! 🤕"
+                </p>
+            </div>
+        </section>
+
+        <section class="card" style="text-align: center;">
+            <h2 class="section-title">📞 Connect With Me</h2>
+            <p style="margin-bottom: 20px;"><strong>FBin</strong> – Fahim / Business / International / Network</p>
+            
+            <div style="line-height: 2; font-size: 1.1rem;">
+                🌐 <a href="https://www.fahimofficial.com" target="_blank" style="color:var(--primary); text-decoration: none;">www.fahimofficial.com</a><br>
+                📧 <a href="mailto:fbinfaheem@gmail.com" style="color:var(--secondary); text-decoration: none;">fbinfaheem@gmail.com</a><br>
+                📞 <a href="tel:+8801317621550" style="color:var(--text-dark); text-decoration: none;">+88 01317621550</a>
+            </div>
+            
+            <div style="margin-top: 25px;">
+                <a href="https://wa.me/8801317621550" target="_blank" style="background: #25D366; color: white; padding: 10px 20px; border-radius: 30px; text-decoration: none; font-weight: bold;">
+                    Chat on WhatsApp 💬
+                </a>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Fahim Ahammad Mazumder. All Rights Reserved.</p>
+        <p>Designed with ❤️ in Chattogram</p>
+    </footer>
 
 </body>
 </html>
-
-  
-<div style="font-family: sans-serif; font-size: 18px; color: #0066cc; line-height: 2;">
-  🌐<a href="https://www.fahimofficial.com" target="_blank" style="color: #0066cc; text-decoration: none;">
-    www.fahimofficial.com
-  </a><br>
-  📧<a href="mailto:info@fahimofficial.com" style="color: #0066cc; text-decoration: none;">
-    info@fahimofficial.com 
-          
-<a  📞 href="tel:+8801317621550" style="color: #0066cc; text-decoration: none;">
-    +88 01317621550
-  </a>
-</div>
-   𝗙𝗕𝗶𝗻 – Fahim/Business/International/Network 
-  </p>
-
-  <h3>📱 Connect with me:</h3>
-  <a href="https://facebook.com/fbinfaheem">Facebook</a>
-  <a href="https://instagram.com/fbinfaheem">Instagram</a>
-  <a href="https://tiktok.com/@fbinfaheem">TikTok</a>
-  <a href="https://facebook.com/itsfbindeals">FB Page</a>
-  <a fbinfaheem@gmail.com">E Mail</a>
-  <a wa.me/8801317621550">WhatsApp</a>
-<section id="about" style="font-family: sans-serif; max-width: 800px; margin: auto; padding: 20px;"
-  
-
-  <section>
-    <h3>2. 🌿 প্রকৃতির ভালোবাসা</h3>
-    <p>প্রকৃতি আমাদের সেই নিরব বন্ধু, যে কিছু না বলেও সব কিছু বলে দেয়।<br>
-    গোধূলির আলো, পাতার ফিসফিসে কথা, আর হাওয়ার স্পর্শে যেন পুরনো প্রেমের গল্প ফিরে আসে…<br>
-    এই নিসর্গ শুধু চোখে নয়, হৃদয়ে অনুভব করতে হয়।<br>
-    প্রকৃতির ভালোবাসা কখনো পুরনো হয় না, শুধু গভীর হয় প্রতিটা নিঃশ্বাসে… 🍂🌾💚</p>
-  </section>
-
-  <section>
-        <h3>3. 💭 পৃথিবীকে প্রশ্ন...</h3>
-    <p>পৃথিবীকে আমার জিজ্ঞেস করতে ইচ্ছে করে!<br>কেনো মানুষকে নিজেকে জিজ্ঞেস করতে বলে না, যে আমার মতো কোনো এক হতভাগা যেনো আটকে গেছে, সমুদ্রের কোনো এক দীপে •••😪<br>
-    মানুষ ফিরেও দেখে না •••😒<br>
-    🍂 স্বার্থপরতা যেনো সান্তনা দিতেও রাজি নয়!<br>
-    প্রকৃতি প্রবাহিত হয় সেই প্রবাহ মান স্রোতের মতো।<br>
-    ✔️ একদিন মরে যেতেই হয়, কি লাভ মানুষ মানুষের জন্যে সেই শ্লোগান শুনিয়ে 🤕</p>
-    <p style="font-style: italic;">
-    
-         📧<a href="mailto:fbinfaheem@gmail.com" style="color: #0066cc; text-decoration: none;">
-    fbinfaheem@gmail.com
-          📧<a href="mailto:info@fahimofficial.com" style="color: #0066cc; text-decoration: none;">
-    info@fahimofficial.com
